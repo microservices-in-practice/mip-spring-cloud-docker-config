@@ -1,4 +1,4 @@
 order:
-  discount: 0.1
+  discount: 0.0
   customerServiceUrl: http://customer:8080/customers/
   catalogServiceUrl: http://catalog:8080/items/
