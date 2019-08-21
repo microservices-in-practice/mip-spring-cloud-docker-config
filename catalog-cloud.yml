@@ -3,9 +3,9 @@ spring:
     console:
       enabled: false
   datasource:
-    url: jdbc:mysql://catalogdb:3306/items
-    username: root
-    password: dbpass
+    url: jdbc:postgresql://catalogdb:5432/items
+    username: items
+    password: items
     initialize: true
   jpa:
     show-sql: true
