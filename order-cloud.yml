@@ -13,7 +13,7 @@ spring:
       hibernate:
         format_sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: validate
   flyway:
     locations: classpath:db/migration/{vendor},classpath:db/migration/common
 order:
