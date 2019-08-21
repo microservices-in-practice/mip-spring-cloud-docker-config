@@ -17,6 +17,6 @@ spring:
   flyway:
     locations: classpath:db/migration/{vendor},classpath:db/migration/common
 order:
-  discount: 0.0
+  discount: 0.2
   customerServiceUrl: http://customersvc:8080/customers/
   catalogServiceUrl: http://catalogsvc:8080/items/
