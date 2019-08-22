@@ -1,0 +1,10 @@
+spring:
+  boot:
+    admin:
+      context-path: /admin
+      discovery:
+#        services: catalog,customer,order
+
+turbine:
+  app-config: catalog,customer,order
+  cluster-name-expression: "'default'"
