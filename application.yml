@@ -23,10 +23,10 @@ eureka:
     registry-fetch-interval-seconds: 5
     initial-instance-info-replication-interval-seconds: 10
     instance-info-replication-interval-seconds: 10
-  instance:
-    prefer-ip-address: true
-    hostname: ${server.address}
-    ip-address: ${server.address}
+#  instance:
+#    prefer-ip-address: true
+#    hostname: ${server.address}
+#    ip-address: ${server.address}
 
 ribbon:
   ConnectTimeout: 2000
