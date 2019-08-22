@@ -15,3 +15,8 @@ management:
   endpoint:
     health:
       show-details: always
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery:8761/eureka/
