@@ -1,0 +1,14 @@
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 50000
+  eureka:
+    enabled: true
+
+zuul:
+  add-proxy-headers: true
+  ignoredServices: ''
+  ignoredPatterns: /**/actuator/**
+  routes:
+    catalog: /catalog/**
+    customer: /customer/**
+    order: /order/**
