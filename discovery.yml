@@ -5,6 +5,7 @@ eureka:
     hostname: discovery
   server:
     enable-self-preservation: false
+    response-cache-update-interval-ms: 5000
   client:
     fetch-registry: false
     register-with-eureka: false
