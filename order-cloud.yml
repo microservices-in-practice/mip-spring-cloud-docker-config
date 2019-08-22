@@ -18,5 +18,7 @@ spring:
     locations: classpath:db/migration/{vendor},classpath:db/migration/common
 order:
   discount: 0.0
-  customerServiceUrl: http://customersvc:8080/customers/
-  catalogServiceUrl: http://catalogsvc:8080/items/
+#  customerServiceUrl: http://customersvc:8080/customers/
+  customerServiceUrl: http://customer/customers/
+#  catalogServiceUrl: http://catalogsvc:8080/items/
+  catalogServiceUrl: http://catalog/items/
