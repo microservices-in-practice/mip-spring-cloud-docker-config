@@ -6,7 +6,7 @@ ribbon:
 
 zuul:
   add-proxy-headers: true
-  ignoredServices: ''
+  ignoredServices: '*'
   ignoredPatterns: /**/actuator/**
   routes:
     catalog: /catalog/**
