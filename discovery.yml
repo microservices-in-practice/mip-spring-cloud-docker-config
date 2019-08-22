@@ -4,7 +4,7 @@ eureka:
   instance:
     hostname: discovery
   server:
-    enable-self-preservation: false
+    enable-self-preservation: true
   client:
     fetch-registry: false
     register-with-eureka: false
